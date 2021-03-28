@@ -23,9 +23,10 @@ To run the test with allure reports inputs
 	behave -f allure_behave.formatter:AllureFormatter -o AllureReports
 ```
 To run without allure reports inputs
+
 ```
 	behave --no-capture
-	```
+```
 
 4. Generate allure-report from inputs generated in step 4.
 
