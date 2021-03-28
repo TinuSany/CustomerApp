@@ -27,7 +27,7 @@ To run the test in headed mode using electron browser
 	npm run headmode
 ```
 
-### npm run headmode  --browser "edge" for changing the browser to edge. Use "chrome" for chrome browser and "edge" for edge browser.
+npm run headmode  --browser "edge" for changing the browser to edge. Use "chrome" for chrome browser and "edge" for edge browser.
 
 
 
@@ -39,6 +39,6 @@ example table of .feature file.
 Below is the logic applied for preparing the examples table. 
 ### customer size is: Small, when # of employees is <= 100; Medium when it is <= 1000; Big otherwise. 
 
-### Assumption : changed the lower limit of medium to >100 from >10 as the limit of small is less than or equal to 100.
-### I have used upper limit for small as 100 for the timebeing. If we need to change the upper limit of small to <=10 then 
-### it needs to be updated in the Examples table of the .feature file in the ui-test\cypress\integration\features folder. 
+### Assumption : Changed the lower limit of medium to '>100' from '>10' as the limit of small is less than 
+### or equal to 100. If we need to change the upper limit of small to <=10 then it needs to be updated
+###  in the Examples table of the .feature file in the ui-test\cypress\integration\features folder. 
