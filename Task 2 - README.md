@@ -44,6 +44,7 @@ example table on the .feature file.
 Below is the logic applied for preparing the examples table. 
 ### customer size is: Small, when # of employees is <= 100; Medium when it is <= 1000; Big otherwise. 
 
-### Assumption : I think upper limit for small <=10 is a typo as I see it is 100 in UI test. I have used 100 for the timebeing. 
-### If we need to change the upper limit of small to <=10 then it needs to be updated in the Examples table of the feature file 
-### as well as key value in the utilities/properties.ini.
+### Assumption : I think upper limit for small <=10 is a typo as I see it is 100 in UI test. 
+### I have used 100 for the timebeing. If we need to change the upper limit of small to <=10 then 
+### it needs to be updated in the Examples table of the feature file as well as key value 
+### in the utilities/properties.ini.
