@@ -15,7 +15,7 @@ Please install Python 3.9.1 or above in your machine before you execute this tes
 ```
 cd to the directory 'api-test'.
 activate your virtualenv - Please refer https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/ for more details
-run: pip install -r requirements.txt in your terminal.
+run: pip install -r requirement.txt in your terminal.
 ```
 3. Run the test
 To run the test with allure reports inputs
